@@ -6,7 +6,6 @@
 </br>
 
 <code>url</code> bindings for <a href="https://rescript-lang.org/">Rescript </a>.
-<hr />
 </div>
 
 
