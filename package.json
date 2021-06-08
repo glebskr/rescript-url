@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@glennsl/bs-jest": "^0.7.0"
+  },
+  "dependencies": {
+    "rescript": "^9.1.3"
+  },
+  "keywords": [
+    "bucklescript",
+    "node",
+    "reason",
+    "url",
+    "whatwg"
+  ],
+  "license": "MIT",
+  "main": "lib/js/src/URL.bs.js",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript",
+    "start": "rescript build -w",
+    "build:deps": "rescript build -with-deps",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "name": "rescript-url",
+  "description": "`url` bindings for [Rescript](https://rescript-lang.org/).",
+  "version": "0.1.0",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glebskr/rescript-url.git"
+  },
+  "author": "glebskr",
+  "bugs": {
+    "url": "https://github.com/glebskr/rescript-url/issues"
+  },
+  "homepage": "https://github.com/glebskr/rescript-url#readme"
+}
